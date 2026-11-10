@@ -1,0 +1,170 @@
+{
+  "cleaning": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/7513046/pexels-photo-7513046.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "A person in yellow gloves wipes a round wooden-framed mirror with a cloth.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/6224257/pexels-photo-6224257.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "A woman wipes a wooden dining table with a pink cloth in a white kitchen.",
+      "width": 1400,
+      "height": 900
+    }
+  },
+  "handyman": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/5768107/pexels-photo-5768107.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "Close-up of hands using a cordless drill on a white window frame.",
+      "width": 1400,
+      "height": 935
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/6790060/pexels-photo-6790060.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "Hands mark a wooden board with a pencil and steel ruler beside a sketchbook.",
+      "width": 1400,
+      "height": 933
+    }
+  },
+  "painting": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "A hand holds a red-handled roller covered in white paint against a lightly textured wall.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/7218579/pexels-photo-7218579.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "A person kneels on a protected floor and rolls white paint onto a wall bordered with blue masking tape.",
+      "width": 1400,
+      "height": 2100
+    }
+  },
+  "hvac": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/32497161/pexels-photo-32497161.jpeg?auto=compress&cs=tinysrgb&w=1600&q=85",
+      "alt": "A technician inspects an outdoor air-conditioning unit beside a house. Illustrative stock photography.",
+      "width": 1600,
+      "height": 1067
+    },
+    "secondary": {
+      "src": "https://images.unsplash.com/photo-1776860153678-b204dccd0f65?auto=format&fit=max&fm=jpg&q=82&w=1400",
+      "alt": "Four outdoor heat-pump units in a row beside a light-colored building and lawn.",
+      "width": 1400,
+      "height": 788
+    }
+  },
+  "lawn-care": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/7546775/pexels-photo-7546775.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "alt": "A broad green lawn in front of a single-story home with a covered patio and garden furniture.",
+      "width": 1400,
+      "height": 951
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/11364122/pexels-photo-11364122.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "alt": "Close view of a string trimmer cutting grass beside a worker wearing orange trousers and boots.",
+      "width": 1400,
+      "height": 933
+    }
+  },
+  "janitorial": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/33342702/pexels-photo-33342702.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "alt": "Modern open office with white desks, black chairs, pendant lights, shelving, and a carpeted central aisle.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/33357392/pexels-photo-33357392/free-photo-of-janitors-cleaning-large-glass-doors-in-office-building.png?auto=compress&cs=tinysrgb&fm=jpg&w=1400",
+      "alt": "Black-and-white photograph of two cleaners using long-handled tools on tall glass entrance doors.",
+      "width": 1400,
+      "height": 2096
+    }
+  },
+  "pressure-washing": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/8583592/pexels-photo-8583592.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "alt": "A suburban house with gray siding, a white garage door, a concrete driveway, and a landscaped front lawn.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "alt": "Person in a yellow raincoat, face shield, and blue gloves spraying house siding with a pressure washer.",
+      "width": 1400,
+      "height": 1867
+    }
+  },
+  "food-trucks": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/8448174/pexels-photo-8448174.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A plate of street tacos topped with onion and cilantro beside radishes, lime, and green salsa.",
+      "width": 1400,
+      "height": 934
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/19250425/pexels-photo-19250425.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A gloved hand holds a ladle above fresh tacos at an outdoor food stall.",
+      "width": 1400,
+      "height": 2100
+    }
+  },
+  "catering": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/7245480/pexels-photo-7245480.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "Bowls of grain salad and small plated appetizers arranged with fruit and stacked white plates.",
+      "width": 1400,
+      "height": 934
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/38075093/pexels-photo-38075093.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A long garden table set with shared platters, salads, snacks, and small flower arrangements.",
+      "width": 1400,
+      "height": 2487
+    }
+  },
+  "pet-grooming": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/6816850/pexels-photo-6816850.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A Yorkshire terrier being combed by gloved hands on a grooming table.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/19145886/pexels-photo-19145886.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A groomer trims a small dog face with scissors beside a bright window.",
+      "width": 1400,
+      "height": 934
+    }
+  },
+  "barbershop": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/5584458/pexels-photo-5584458.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "Close view of barber hands using scissors and a comb to trim short dark hair.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/3998395/pexels-photo-3998395.jpeg?auto=compress&cs=tinysrgb&w=1400&fm=jpg&q=82",
+      "alt": "A barber places a striped cape around a seated client in front of an illuminated mirror.",
+      "width": 1400,
+      "height": 2100
+    }
+  },
+  "detailing": {
+    "hero": {
+      "src": "https://images.pexels.com/photos/14615262/pexels-photo-14615262.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "Gloved hands guide a powered polishing machine over the reflective surface of a dark car.",
+      "width": 1400,
+      "height": 933
+    },
+    "secondary": {
+      "src": "https://images.pexels.com/photos/14908957/pexels-photo-14908957.jpeg?auto=compress&cs=tinysrgb&w=1400&q=82",
+      "alt": "A person polishes a taped section of a black car door in a workshop.",
+      "width": 1400,
+      "height": 933
+    }
+  }
+}

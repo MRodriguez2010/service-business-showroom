@@ -1,0 +1,167 @@
+{
+  "eyebrow": "STREET FOOD. SLOW-CRAFTED.",
+  "headline": "Good food.\nFind us near you.",
+  "intro": "Fire-kissed tacos, bright salsas, and a little something worth stepping out for. Pull up a chair. We’ll bring the kitchen.",
+  "promise": ["Small-batch salsas", "Made to order", "Good company welcome"],
+  "serviceTitle": "A short menu. A long conversation.",
+  "serviceIntro": "Corn tortillas, a hot griddle, and ingredients that speak for themselves. Sample menu and illustrative prices.",
+  "offers": [
+    {
+      "title": "The ember taco",
+      "text": "Charred chicken, roasted tomato salsa, onion, and a generous squeeze of lime.",
+      "items": [
+        "Three corn tortillas",
+        "House salsa on the side",
+        "Contains dairy in crema"
+      ],
+      "tag": "FROM THE GRIDDLE",
+      "price": "$12 / trio"
+    },
+    {
+      "title": "Mushroom & masa",
+      "text": "Seared mushrooms, black beans, crunchy cabbage, and green salsa.",
+      "items": [
+        "Plant-based recipe",
+        "Fresh cilantro",
+        "Ask about shared cooking surfaces"
+      ],
+      "tag": "FROM THE GARDEN",
+      "price": "$11 / trio"
+    },
+    {
+      "title": "The whole spread",
+      "text": "A taco trio, street corn cup, and an agua fresca for a proper lunch break.",
+      "items": [
+        "Choice of filling",
+        "Seasonal agua fresca",
+        "Vegetarian option available"
+      ],
+      "tag": "MAKE IT A MEAL",
+      "price": "$17 / set"
+    }
+  ],
+  "story": {
+    "eyebrow": "FROM OUR LITTLE KITCHEN",
+    "title": "Some things deserve a little more time.",
+    "text": "The best part of a food truck is the moment a neighborhood becomes a table. Our sample menu keeps the choices focused and the flavors generous.",
+    "points": [
+      "A rotating seasonal special",
+      "A clear menu, including dietary notes",
+      "Private gatherings with a menu built around your crowd"
+    ]
+  },
+  "guide": {
+    "eyebrow": "COME FIND US",
+    "title": "Different corners. Same good food.",
+    "intro": "A sample week on the road. These fictional locations show how a truck can keep its neighborhood in the loop.",
+    "notes": [
+      {
+        "title": "Thursday · 11:30–2:00",
+        "text": "Lunch at Foundry Courtyard. A quick menu for the midday crowd, with vegetarian options and salsa on the side."
+      },
+      {
+        "title": "Friday · 5:00–8:30",
+        "text": "Evening at Riverbend Market. Grab a trio, settle into the shared seating, and make a night of it."
+      },
+      {
+        "title": "Saturday · 12:00–4:00",
+        "text": "A slow afternoon at Cedar Park Commons. Family-friendly service and a rotating seasonal agua fresca."
+      },
+      {
+        "title": "Bring us to your people",
+        "text": "For an office lunch, backyard gathering, or celebration, tell us your date, guest count, and preferred menu. The event planner turns those details into a sample brief."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can you accommodate dietary preferences?",
+      "a": "The sample menu includes a plant-based option. A real event inquiry would confirm ingredients, allergies, and shared-surface considerations before the menu is finalized."
+    },
+    {
+      "q": "Can I place a real order here?",
+      "a": "This is an interactive website example. Menu prices, stops, and event requests are illustrative; no food orders or payments are accepted."
+    },
+    {
+      "q": "What does a private event need?",
+      "a": "A proposed date, head count, service window, and room for the truck. The business would confirm access, setup, minimums, and final availability directly."
+    }
+  ],
+  "flow": {
+    "title": "Make your gathering a little tastier.",
+    "intro": "Build a sample event brief in a few easy steps.",
+    "steps": [
+      {
+        "title": "Your gathering",
+        "intro": "Start with the people and the occasion.",
+        "fields": [
+          {
+            "id": "occasion",
+            "label": "What are you planning?",
+            "type": "choice",
+            "options": [
+              "Backyard party",
+              "Office lunch",
+              "Community event",
+              "Wedding welcome"
+            ]
+          },
+          {
+            "id": "guests",
+            "label": "Approximate guests",
+            "type": "number",
+            "min": 15,
+            "max": 300
+          }
+        ]
+      },
+      {
+        "title": "Your menu",
+        "intro": "Choose a style that suits the crowd.",
+        "fields": [
+          {
+            "id": "menu",
+            "label": "Taco selection",
+            "type": "choice",
+            "options": [
+              "Mixed favorites",
+              "Plant-based menu",
+              "Chicken & mushroom"
+            ]
+          },
+          {
+            "id": "extras",
+            "label": "Round out the table",
+            "type": "multi",
+            "options": ["Street corn", "Agua fresca", "Chips & salsa"],
+            "optional": true
+          }
+        ]
+      },
+      {
+        "title": "When & where",
+        "intro": "Use a sample date and setup preference.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "setup",
+            "label": "Event setting",
+            "type": "choice",
+            "options": ["Private yard", "Office courtyard", "Community venue"]
+          },
+          {
+            "id": "window",
+            "label": "Service window",
+            "type": "choice",
+            "options": ["Lunch", "Afternoon", "Evening"]
+          }
+        ]
+      }
+    ],
+    "next": "A real inquiry would next confirm access, availability, dietary needs, and a written quote."
+  }
+}

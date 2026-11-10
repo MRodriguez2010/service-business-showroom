@@ -1,0 +1,165 @@
+{
+  "eyebrow": "MAKE ROOM FOR YOUR WEEKEND.",
+  "headline": "A home that\nfeels like an exhale.",
+  "intro": "Fresh surfaces. Clear counters. One less thing on your list. A considered clean for the home you live in.",
+  "promise": ["Routine cleans", "Deep resets", "Move-in & move-out"],
+  "serviceTitle": "A little reset, or a fresh beginning.",
+  "serviceIntro": "Choose the level of care that fits your home today, then make the routine your own.",
+  "offers": [
+    {
+      "title": "The regular reset",
+      "text": "A recurring clean that helps your home keep pace with real life.",
+      "items": [
+        "Kitchen surfaces and sink",
+        "Bathrooms and accessible surfaces",
+        "Vacuuming and floor care"
+      ],
+      "tag": "KEEP THE RHYTHM"
+    },
+    {
+      "title": "The deeper clean",
+      "text": "Extra attention when everyday upkeep needs a little help.",
+      "items": [
+        "Detailed accessible surfaces",
+        "Doors, trim, and buildup reviewed",
+        "Added time for priority areas"
+      ],
+      "tag": "START FRESH"
+    },
+    {
+      "title": "The moving clean",
+      "text": "A clear, empty-space checklist for a new chapter.",
+      "items": [
+        "Empty cabinets by arrangement",
+        "Kitchen and bathroom detail",
+        "Access and appliance scope confirmed"
+      ],
+      "tag": "TURN THE PAGE"
+    }
+  ],
+  "story": {
+    "eyebrow": "A HOME IS PERSONAL",
+    "title": "Thoughtful care starts with listening.",
+    "text": "Every household has different priorities. Tell us about delicate finishes, off-limit spaces, pets, and the room you would most like to stop thinking about.",
+    "points": [
+      "Room-by-room priorities",
+      "Clear inclusions and optional extras",
+      "A plan for access and pets"
+    ]
+  },
+  "guide": {
+    "eyebrow": "WHAT A CLEAN INCLUDES",
+    "title": "The details, room by room.",
+    "intro": "An explicit checklist makes it easier to choose the right service and know what to expect.",
+    "notes": [
+      {
+        "title": "In the kitchen",
+        "text": "Countertops, accessible appliance exteriors, sinks, and floors form the regular reset. Inside ovens, refrigerators, or cabinets should be discussed as separate tasks."
+      },
+      {
+        "title": "In the bathroom",
+        "text": "Include sinks, mirrors, toilets, showers, and floors in the agreed scope. Note delicate finishes and product restrictions before work begins."
+      },
+      {
+        "title": "In living spaces",
+        "text": "Accessible dusting, vacuuming, and suitable floor care help reset the rooms you use every day. Moving heavy furniture or handling valuables should not be assumed."
+      },
+      {
+        "title": "Before the visit",
+        "text": "Clear loose clutter, secure pets, and identify fragile items. Share product sensitivities and access arrangements so the visit can focus on the cleaning."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I need to be home?",
+      "a": "Either arrangement can work when access is agreed in advance. This preview offers an at-home handoff or a coordinated entry arrangement."
+    },
+    {
+      "q": "Can I choose just a few rooms?",
+      "a": "Yes. The planner lets you identify rooms and priorities. A real quote would account for size, condition, scope, and available time."
+    },
+    {
+      "q": "Are all products suitable for every surface?",
+      "a": "No. Share finish care instructions, sensitivities, and product restrictions with the provider. Delicate materials need suitable methods."
+    }
+  ],
+  "flow": {
+    "title": "Make space for a clean start.",
+    "intro": "Choose your rooms, your rhythm, and what matters most.",
+    "steps": [
+      {
+        "title": "Your home",
+        "intro": "A little context for the clean.",
+        "fields": [
+          {
+            "id": "bedrooms",
+            "label": "Bedrooms",
+            "type": "number",
+            "min": 1,
+            "max": 8
+          },
+          {
+            "id": "bathrooms",
+            "label": "Bathrooms",
+            "type": "number",
+            "min": 1,
+            "max": 8
+          },
+          {
+            "id": "clean",
+            "label": "Type of clean",
+            "type": "choice",
+            "options": ["Regular reset", "Deep clean", "Move-in / move-out"]
+          }
+        ]
+      },
+      {
+        "title": "Your priorities",
+        "intro": "Choose the rooms and a useful rhythm.",
+        "fields": [
+          {
+            "id": "rooms",
+            "label": "Focus rooms",
+            "type": "multi",
+            "options": ["Kitchen", "Bathrooms", "Living spaces", "Bedrooms"],
+            "optional": false
+          },
+          {
+            "id": "frequency",
+            "label": "How often?",
+            "type": "choice",
+            "options": ["Weekly", "Every two weeks", "Monthly", "One time"]
+          }
+        ]
+      },
+      {
+        "title": "Your visit",
+        "intro": "Preview the practical details.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "entry",
+            "label": "Entry arrangement",
+            "type": "choice",
+            "options": ["I will be home", "Coordinate secure access"]
+          },
+          {
+            "id": "products",
+            "label": "Product preferences",
+            "type": "choice",
+            "options": [
+              "Standard suitable products",
+              "Discuss sensitivities first"
+            ]
+          }
+        ]
+      }
+    ],
+    "next": "A real cleaning team would confirm condition, access, products, and the final scope before booking."
+  }
+}

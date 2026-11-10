@@ -1,0 +1,166 @@
+{
+  "eyebrow": "SMALL JOBS. PROPERLY CONSIDERED.",
+  "headline": "That list on\nyour fridge?\nLet’s handle it.",
+  "intro": "The loose handle, the shelf still in its box, the door that never quite closes. A practical plan for the jobs that add up.",
+  "promise": [
+    "Repairs & adjustments",
+    "Assembly & mounting",
+    "A clear project list"
+  ],
+  "serviceTitle": "Make a little room on your to-do list.",
+  "serviceIntro": "Group the small jobs into a visit that makes sense. Materials, access, and specialist requirements are reviewed first.",
+  "offers": [
+    {
+      "title": "Fix the everyday",
+      "text": "Tackle the small issues that make a home feel unfinished.",
+      "items": [
+        "Door and hardware adjustments",
+        "Minor trim repairs",
+        "Loose fittings reviewed"
+      ],
+      "tag": "REPAIR"
+    },
+    {
+      "title": "Put it together",
+      "text": "Turn boxes and instructions into something useful.",
+      "items": [
+        "Flat-pack furniture assembly",
+        "Shelving projects",
+        "Packaging arrangements agreed"
+      ],
+      "tag": "ASSEMBLE"
+    },
+    {
+      "title": "Make it feel finished",
+      "text": "A thoughtful hand with the final details.",
+      "items": [
+        "Art and accessory placement",
+        "Mounting surfaces assessed",
+        "Small finish work by scope"
+      ],
+      "tag": "INSTALL"
+    }
+  ],
+  "story": {
+    "eyebrow": "MEASURE FIRST. THEN MAKE IT RIGHT.",
+    "title": "A good visit starts with a good list.",
+    "text": "Photos, dimensions, product instructions, and the condition of the surface make a request easier to understand. Agree the work before the tools come out.",
+    "points": [
+      "Bundle related tasks",
+      "Confirm materials and responsibility",
+      "Refer licensed work to the right trade"
+    ]
+  },
+  "guide": {
+    "eyebrow": "HOW WE WORK",
+    "title": "Less guesswork. More done.",
+    "intro": "A small job still deserves a clear brief and realistic expectations.",
+    "notes": [
+      {
+        "title": "Make the list",
+        "text": "Describe each task and the result you want. Note dimensions, item models, wall materials, and anything that has been tried already."
+      },
+      {
+        "title": "Sort the materials",
+        "text": "Agree who supplies fixtures, fixings, and replacement parts. A visit can stall when the right part or installation instructions are missing."
+      },
+      {
+        "title": "Know the boundaries",
+        "text": "Electrical, plumbing, structural, and other regulated work may need a licensed specialist. This example does not claim those credentials."
+      },
+      {
+        "title": "Walk through the result",
+        "text": "Review completed tasks and outstanding items together. Any newly discovered damage or extra work should be discussed before it is added."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can I bundle several jobs?",
+      "a": "Yes. The planner creates a short project list. A real provider would review the tasks and agree a practical visit scope."
+    },
+    {
+      "q": "Do I buy the materials?",
+      "a": "That should be agreed in advance. You can indicate whether items are already on hand or need to be sourced."
+    },
+    {
+      "q": "Can every repair be handled in one visit?",
+      "a": "No. Hidden conditions, missing parts, or specialist requirements may change the plan. A useful website sets that expectation clearly."
+    }
+  ],
+  "flow": {
+    "title": "Turn the list into a plan.",
+    "intro": "Choose the tasks you want help with and organize a sample visit.",
+    "steps": [
+      {
+        "title": "Your project list",
+        "intro": "Bundle the small jobs that matter.",
+        "fields": [
+          {
+            "id": "tasks",
+            "label": "Tasks for the visit",
+            "type": "multi",
+            "options": [
+              "Adjust a door",
+              "Assemble furniture",
+              "Hang shelves",
+              "Replace cabinet hardware",
+              "Minor trim repair"
+            ],
+            "optional": false
+          }
+        ]
+      },
+      {
+        "title": "What’s ready?",
+        "intro": "The practical details make a difference.",
+        "fields": [
+          {
+            "id": "materials",
+            "label": "Materials",
+            "type": "choice",
+            "options": [
+              "I have the items",
+              "Need help identifying parts",
+              "A mix of both"
+            ]
+          },
+          {
+            "id": "condition",
+            "label": "Existing condition",
+            "type": "choice",
+            "options": [
+              "Straightforward installation",
+              "Repair or damage to review",
+              "Not sure"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Plan the visit",
+        "intro": "Choose a sample timing and access arrangement.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "window",
+            "label": "Preferred window",
+            "type": "choice",
+            "options": ["Morning", "Afternoon"]
+          },
+          {
+            "id": "access",
+            "label": "Access",
+            "type": "choice",
+            "options": ["I will meet you", "Coordinate with property contact"]
+          }
+        ]
+      }
+    ],
+    "next": "A real provider would review the tasks, confirm trade requirements, and agree the time and materials before visiting."
+  }
+}

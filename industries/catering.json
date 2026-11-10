@@ -1,0 +1,175 @@
+{
+  "eyebrow": "FOR THE PEOPLE AROUND YOUR TABLE.",
+  "headline": "An occasion\nto come together.",
+  "intro": "Seasonal food, generous tables, and the kind of hospitality that lets you be part of your own gathering.",
+  "promise": [
+    "Intimate dinners",
+    "Shared celebrations",
+    "Thoughtful workplace food"
+  ],
+  "serviceTitle": "Made for the way you gather.",
+  "serviceIntro": "Choose a style of hospitality before choosing individual dishes. These sample menus begin the conversation.",
+  "offers": [
+    {
+      "title": "The shared table",
+      "text": "A generous family-style spread that brings a room together.",
+      "items": [
+        "Seasonal vegetable starters",
+        "A main with thoughtful sides",
+        "Dessert for the table"
+      ],
+      "tag": "FAMILY STYLE",
+      "price": "$48 / guest · sample"
+    },
+    {
+      "title": "The easy gathering",
+      "text": "Beautifully arranged food for the occasions that want room to move.",
+      "items": [
+        "Small bites and grazing dishes",
+        "Clear dietary labeling",
+        "Setup scope agreed"
+      ],
+      "tag": "RECEPTION",
+      "price": "$34 / guest · sample"
+    },
+    {
+      "title": "The working lunch",
+      "text": "A thoughtful midday menu for teams with a full agenda.",
+      "items": [
+        "Seasonal salads and mains",
+        "Vegetarian menu option",
+        "Delivery and service discussed"
+      ],
+      "tag": "WORKPLACE",
+      "price": "$26 / guest · sample"
+    }
+  ],
+  "story": {
+    "eyebrow": "HOST WITH A LITTLE MORE EASE",
+    "title": "The best seat should still be yours.",
+    "text": "A gathering has a rhythm: arrival, conversation, food, and the moments between. A considered menu and service plan give you room to enjoy all of it.",
+    "points": [
+      "A menu shaped around the occasion",
+      "Dietary needs discussed individually",
+      "Service, rentals, and cleanup made clear"
+    ]
+  },
+  "guide": {
+    "eyebrow": "YOUR OCCASION",
+    "title": "Every table has a different story.",
+    "intro": "Begin with the feeling of the gathering, the guest count, and the space. The menu comes into focus from there.",
+    "notes": [
+      {
+        "title": "At home",
+        "text": "An intimate dinner needs a plan for kitchen access, serving space, timing, and cleanup. Decide how much hosting support you want."
+      },
+      {
+        "title": "A celebration",
+        "text": "Weddings, milestones, and welcome parties need a shared timeline with the venue. Confirm rentals, staffing, and access before finalizing service."
+      },
+      {
+        "title": "At work",
+        "text": "Meeting schedules, delivery access, dietary labels, and serving windows shape a successful workplace meal. Decide whether the food is delivered, set up, or staffed."
+      },
+      {
+        "title": "At the planning table",
+        "text": "Allergies, ingredient requirements, and shared preparation surfaces need a direct discussion with the caterer. Sample menu labels are not a safety guarantee."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can the menu adapt to dietary needs?",
+      "a": "A real caterer should review each requirement and explain what can be accommodated. The event brief collects topics for that discussion."
+    },
+    {
+      "q": "Are staffing and rentals included?",
+      "a": "Not automatically. Service, tableware, rentals, setup, and cleanup should be itemized in a real proposal."
+    },
+    {
+      "q": "Can I confirm an event here?",
+      "a": "No. This is a fictional example with illustrative menus and prices. The planner produces a sample brief only."
+    }
+  ],
+  "flow": {
+    "title": "Let’s set your table.",
+    "intro": "Shape a sample event brief around your people and your occasion.",
+    "steps": [
+      {
+        "title": "The occasion",
+        "intro": "Start with your gathering.",
+        "fields": [
+          {
+            "id": "occasion",
+            "label": "Occasion",
+            "type": "choice",
+            "options": [
+              "Private dinner",
+              "Wedding celebration",
+              "Workplace event",
+              "Milestone party"
+            ]
+          },
+          {
+            "id": "guests",
+            "label": "Guest count",
+            "type": "number",
+            "min": 10,
+            "max": 300
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          }
+        ]
+      },
+      {
+        "title": "At the table",
+        "intro": "Choose a menu style and dietary discussion points.",
+        "fields": [
+          {
+            "id": "menu",
+            "label": "Menu style",
+            "type": "choice",
+            "options": [
+              "The shared table",
+              "The easy gathering",
+              "The working lunch"
+            ]
+          },
+          {
+            "id": "dietary",
+            "label": "Dietary needs to discuss",
+            "type": "multi",
+            "options": ["Vegetarian", "Vegan", "Gluten-free", "Food allergies"],
+            "optional": true
+          }
+        ]
+      },
+      {
+        "title": "The hospitality",
+        "intro": "Choose the level of support.",
+        "fields": [
+          {
+            "id": "service",
+            "label": "Service style",
+            "type": "choice",
+            "options": [
+              "Delivery & setup",
+              "Staffed buffet",
+              "Family-style service"
+            ]
+          },
+          {
+            "id": "venue",
+            "label": "Venue",
+            "type": "choice",
+            "options": ["Private home", "Event venue", "Workplace"]
+          }
+        ]
+      }
+    ],
+    "next": "A real caterer would confirm the menu, dietary arrangements, staffing, rentals, and an itemized proposal."
+  }
+}

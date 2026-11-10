@@ -1,0 +1,164 @@
+{
+  "eyebrow": "GOOD HAIR DAYS. HAPPY TAIL DAYS.",
+  "headline": "Fresh coat.\nSame best friend.",
+  "intro": "A thoughtful grooming visit, shaped around your dog’s coat, comfort, and very particular personality.",
+  "promise": ["Bath & brush", "Full grooms", "A patient first visit"],
+  "serviceTitle": "A little care from nose to tail.",
+  "serviceIntro": "Choose a starting service, then share the details that help your groomer plan a comfortable visit.",
+  "offers": [
+    {
+      "title": "The freshen-up",
+      "text": "A bath and brush for a coat that needs a reset.",
+      "items": [
+        "Coat-appropriate bath",
+        "Brush-out and drying",
+        "Finishing needs discussed"
+      ],
+      "tag": "BATH & BRUSH"
+    },
+    {
+      "title": "The full groom",
+      "text": "A complete visit with a haircut shaped around coat and lifestyle.",
+      "items": [
+        "Coat and style consultation",
+        "Bath, dry, and haircut",
+        "Handling needs reviewed"
+      ],
+      "tag": "FULL GROOM"
+    },
+    {
+      "title": "The gentle introduction",
+      "text": "A conversation and a shorter introduction for a first visit.",
+      "items": [
+        "Meet the space and groomer",
+        "Discuss handling and history",
+        "Agree a comfortable next step"
+      ],
+      "tag": "FIRST VISITS"
+    }
+  ],
+  "story": {
+    "eyebrow": "COMFORT COMES FIRST",
+    "title": "Every dog brings a different story.",
+    "text": "Tell your groomer what your dog likes, what worries them, and what has worked before. A good visit begins with a conversation, not an assumption.",
+    "points": [
+      "Coat condition discussed openly",
+      "Breaks and handling needs considered",
+      "No surprise style changes"
+    ]
+  },
+  "guide": {
+    "eyebrow": "A GENTLER VISIT",
+    "title": "Help us get to know your best friend.",
+    "intro": "A little preparation helps a real groomer understand the dog behind the appointment.",
+    "notes": [
+      {
+        "title": "Tell the whole story",
+        "text": "Share coat history, previous grooming experiences, sensitivities, and any concerns. Health questions belong with your veterinarian."
+      },
+      {
+        "title": "Talk about the coat",
+        "text": "Matting, tangles, and shedding affect the plan. A groomer should explain comfortable options and avoid promising a style before assessing the coat."
+      },
+      {
+        "title": "Prepare for arrival",
+        "text": "Confirm the business’s vaccination, leash, pickup, and late-arrival policies directly. This fictional example does not invent medical or vaccination requirements."
+      },
+      {
+        "title": "Plan the next visit",
+        "text": "Coat type, home maintenance, and lifestyle help determine a useful grooming rhythm. Ask for a routine that fits your dog rather than a universal schedule."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can a nervous dog visit?",
+      "a": "A real groomer should discuss behavior and handling needs first. The planner includes a comfort question to start that conversation."
+    },
+    {
+      "q": "Can I choose a haircut from a photo?",
+      "a": "A reference can help, but coat type, condition, and comfort influence the result. The style is confirmed with the groomer."
+    },
+    {
+      "q": "Do you provide veterinary care?",
+      "a": "No. This is a grooming example. Medical concerns should be discussed with a qualified veterinarian."
+    }
+  ],
+  "flow": {
+    "title": "A good visit starts here.",
+    "intro": "Introduce your dog and preview a grooming appointment.",
+    "steps": [
+      {
+        "title": "Meet your dog",
+        "intro": "A few details help shape the visit.",
+        "fields": [
+          {
+            "id": "size",
+            "label": "Dog size",
+            "type": "choice",
+            "options": [
+              "Small · under 20 lb",
+              "Medium · 20–50 lb",
+              "Large · over 50 lb"
+            ]
+          },
+          {
+            "id": "coat",
+            "label": "Coat type",
+            "type": "choice",
+            "options": [
+              "Short & smooth",
+              "Long or double coat",
+              "Curly or wavy",
+              "Not sure"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The grooming plan",
+        "intro": "Choose a service and share comfort needs.",
+        "fields": [
+          {
+            "id": "service",
+            "label": "Service",
+            "type": "choice",
+            "options": [
+              "Bath & brush",
+              "Full groom",
+              "First-visit introduction"
+            ]
+          },
+          {
+            "id": "comfort",
+            "label": "Comfort with grooming",
+            "type": "choice",
+            "options": [
+              "Comfortable and familiar",
+              "A little nervous",
+              "Needs a conversation first"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your visit",
+        "intro": "Choose a sample date and time of day.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "window",
+            "label": "Preferred window",
+            "type": "choice",
+            "options": ["Morning", "Midday", "Afternoon"]
+          }
+        ]
+      }
+    ],
+    "next": "A real groomer would confirm coat condition, handling needs, policies, availability, and price."
+  }
+}

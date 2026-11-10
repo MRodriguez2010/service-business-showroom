@@ -1,0 +1,162 @@
+{
+  "eyebrow": "A LITTLE CARE. A LOT MORE OUTSIDE.",
+  "headline": "Good ground\nfor everyday living.",
+  "intro": "A neat edge. Room to run. A yard that feels like yours again. Thoughtful lawn care for the seasons you actually live in.",
+  "promise": ["Mow, trim & edge", "Seasonal resets", "Beds & borders"],
+  "serviceTitle": "The kind of care your yard needs.",
+  "serviceIntro": "From a regular visit to a seasonal reset, choose work that fits the condition of your property.",
+  "offers": [
+    {
+      "title": "The weekly rhythm",
+      "text": "Consistent mowing and the finishing details that make a lawn feel cared for.",
+      "items": [
+        "Mowing suited to growth and conditions",
+        "String trimming around obstacles",
+        "Edging and clearing hard surfaces"
+      ],
+      "tag": "ROUTINE CARE"
+    },
+    {
+      "title": "A fresh start",
+      "text": "Bring overgrown corners and seasonal debris back into the plan.",
+      "items": [
+        "Loose leaf and debris cleanup",
+        "Overgrowth reviewed before quoting",
+        "Waste arrangements confirmed"
+      ],
+      "tag": "SEASONAL RESET"
+    },
+    {
+      "title": "Beyond the lawn",
+      "text": "The edges and garden beds deserve a little attention, too.",
+      "items": [
+        "Bed weeding",
+        "Mulch refresh by arrangement",
+        "Light border maintenance"
+      ],
+      "tag": "BEDS & BORDERS"
+    }
+  ],
+  "story": {
+    "eyebrow": "THE DETAILS MAKE THE DIFFERENCE",
+    "title": "More time in your yard. Less time catching up.",
+    "text": "A care plan should consider the lawn you have, the season, and how you use the space. Choose a routine, then adjust it when the property needs something different.",
+    "points": [
+      "Access and pets discussed up front",
+      "Weather changes communicated clearly",
+      "Extra work agreed before it begins"
+    ]
+  },
+  "guide": {
+    "eyebrow": "THROUGH THE SEASONS",
+    "title": "A yard has its own calendar.",
+    "intro": "A useful seasonal plan changes with growth, weather, and the condition of the ground. These are planning prompts, not a fixed treatment prescription.",
+    "notes": [
+      {
+        "title": "Spring · take stock",
+        "text": "Check for debris, bare patches, and drainage concerns before setting a routine. Discuss grass type, soil conditions, and goals before adding treatments."
+      },
+      {
+        "title": "Summer · watch the conditions",
+        "text": "Growth and weather can change how often a lawn needs attention. Discuss watering restrictions with your local provider and avoid treating a calendar as a universal rule."
+      },
+      {
+        "title": "Fall · reset the edges",
+        "text": "Plan for leaf collection, bed tidying, and access before wet weather. Ask whether material removal is included or arranged separately."
+      },
+      {
+        "title": "Between visits",
+        "text": "Keep gates accessible and flag fragile areas, irrigation components, pet waste, and items in the lawn. A little preparation helps the visit go smoothly."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "What is included in a routine visit?",
+      "a": "This example includes mowing, trimming, edging, and clearing clippings from hard surfaces. An actual provider would confirm access, condition, and the written scope."
+    },
+    {
+      "q": "What happens if it rains?",
+      "a": "Weather and ground conditions can affect a visit. A real schedule should state how changes are communicated and rescheduled."
+    },
+    {
+      "q": "Does a care plan include treatments?",
+      "a": "Not automatically. Fertilizer, pest treatment, irrigation repair, and specialist tree work need separately qualified advice and an agreed scope."
+    }
+  ],
+  "flow": {
+    "title": "Give your yard a plan.",
+    "intro": "Build a sample care routine around the property you have.",
+    "steps": [
+      {
+        "title": "Your property",
+        "intro": "Start with size and current condition.",
+        "fields": [
+          {
+            "id": "size",
+            "label": "Lawn size",
+            "type": "choice",
+            "options": [
+              "Small · under 2,500 sq ft",
+              "Medium · 2,500–5,000 sq ft",
+              "Large · 5,000–10,000 sq ft"
+            ]
+          },
+          {
+            "id": "condition",
+            "label": "Current condition",
+            "type": "choice",
+            "options": [
+              "Regularly maintained",
+              "Needs a seasonal reset",
+              "Overgrown in places"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your rhythm",
+        "intro": "Choose a starting routine and extras.",
+        "fields": [
+          {
+            "id": "frequency",
+            "label": "Preferred frequency",
+            "type": "choice",
+            "options": ["Weekly", "Every two weeks", "One-time visit"]
+          },
+          {
+            "id": "extras",
+            "label": "Additional care",
+            "type": "multi",
+            "options": ["Garden bed weeding", "Leaf cleanup", "Mulch refresh"],
+            "optional": true
+          }
+        ]
+      },
+      {
+        "title": "Visit details",
+        "intro": "Help the crew understand the property.",
+        "fields": [
+          {
+            "id": "access",
+            "label": "Yard access",
+            "type": "choice",
+            "options": ["Open access", "Gated yard", "Coordinate on arrival"]
+          },
+          {
+            "id": "pets",
+            "label": "Pets on the property",
+            "type": "choice",
+            "options": ["No pets outdoors", "Pets secured for visits"]
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          }
+        ]
+      }
+    ],
+    "next": "A real provider would review the lawn, confirm the scope, and quote before starting."
+  }
+}

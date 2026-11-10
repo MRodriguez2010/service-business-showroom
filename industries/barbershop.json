@@ -1,0 +1,142 @@
+{
+  "eyebrow": "YOUR NEIGHBORHOOD. YOUR CHAIR.",
+  "headline": "A good cut.\nA little reset.",
+  "intro": "Sharp lines, easy conversation, and a style that feels like you when you walk back out the door.",
+  "promise": ["Cuts & restyles", "Beard care", "Time for the details"],
+  "serviceTitle": "Find your place in the chair.",
+  "serviceIntro": "A focused service menu with room for a proper consultation. Prices and durations are illustrative.",
+  "offers": [
+    {
+      "title": "The cut",
+      "text": "A consultation, cut, and finish shaped around your hair and routine.",
+      "items": [
+        "Talk through length and shape",
+        "Clipper or scissor work",
+        "A finish you can live with"
+      ],
+      "tag": "45 MIN",
+      "price": "$38 sample"
+    },
+    {
+      "title": "Cut & beard",
+      "text": "A coordinated shape for hair and beard, with time for the details.",
+      "items": [
+        "Hair consultation and cut",
+        "Beard shaping",
+        "Finishing and care discussion"
+      ],
+      "tag": "60 MIN",
+      "price": "$52 sample"
+    },
+    {
+      "title": "The restyle",
+      "text": "A little more time when you are ready for something different.",
+      "items": [
+        "Reference and maintenance discussion",
+        "New shape and length",
+        "Styling walkthrough"
+      ],
+      "tag": "60 MIN",
+      "price": "$48 sample"
+    }
+  ],
+  "story": {
+    "eyebrow": "THE CHAIR IS YOURS",
+    "title": "Good conversation. Better attention.",
+    "text": "Bring a reference, a rough idea, or just the haircut you want to stop getting. A proper consultation makes room for how your hair grows and how you wear it.",
+    "points": [
+      "Time to talk before the cut",
+      "A style matched to your routine",
+      "Finishing advice in plain language"
+    ]
+  },
+  "guide": {
+    "eyebrow": "THE PEOPLE BEHIND THE CHAIR",
+    "title": "Different strengths. The same attention.",
+    "intro": "Meet three fictional barber profiles created for this example. Stock photographs illustrate the setting and craft, not these named people.",
+    "notes": [
+      {
+        "title": "Alex · classic & textured",
+        "text": "A sample profile focused on scissor cuts, texture, and shapes that settle naturally between visits. Choose Alex in the appointment preview."
+      },
+      {
+        "title": "Jordan · fades & detail",
+        "text": "A sample profile centered on clipper work, clean transitions, and careful beard shaping. Choose Jordan to see how a barber-specific booking can work."
+      },
+      {
+        "title": "Sam · longer styles & restyles",
+        "text": "A sample profile for clients changing length or looking for a new silhouette. The consultation leaves room for reference photos and everyday styling habits."
+      },
+      {
+        "title": "Not sure who to choose?",
+        "text": "Select “First available” in the preview. A real shop could match the service and the next suitable appointment without asking you to guess."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can I bring a reference photo?",
+      "a": "Yes. A real consultation would discuss your hair type, growth, length, and daily routine before agreeing a direction."
+    },
+    {
+      "q": "Do you accept walk-ins?",
+      "a": "That is a business policy to confirm with a real shop. This fictional example demonstrates appointment selection and does not claim live availability."
+    },
+    {
+      "q": "Are these real barbers and times?",
+      "a": "No. Names, profiles, prices, and appointment windows are sample data. Nothing is booked or paid for here."
+    }
+  ],
+  "flow": {
+    "title": "Find your time in the chair.",
+    "intro": "Choose a service, a barber, and a sample appointment.",
+    "steps": [
+      {
+        "title": "Your service",
+        "intro": "Make a little time for yourself.",
+        "fields": [
+          {
+            "id": "service",
+            "label": "What are you coming in for?",
+            "type": "choice",
+            "options": [
+              "The cut · 45 min",
+              "Cut & beard · 60 min",
+              "The restyle · 60 min"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your barber",
+        "intro": "Choose a sample profile or keep it open.",
+        "fields": [
+          {
+            "id": "barber",
+            "label": "Who would you like to see?",
+            "type": "choice",
+            "options": ["Alex", "Jordan", "Sam", "First available"]
+          }
+        ]
+      },
+      {
+        "title": "Your time",
+        "intro": "These appointment windows are illustrative.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "time",
+            "label": "Sample appointment time",
+            "type": "choice",
+            "options": ["9:00 AM", "11:00 AM", "2:00 PM", "4:00 PM"]
+          }
+        ]
+      }
+    ],
+    "next": "A real booking system would check the selected barber’s availability and confirm the appointment."
+  }
+}

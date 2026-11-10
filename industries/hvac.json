@@ -1,0 +1,166 @@
+{
+  "eyebrow": "HOME COMFORT, CLEARLY EXPLAINED.",
+  "headline": "A better day\nstarts at home.",
+  "intro": "Cooling that keeps up. Heating you can count on. Understand your options and find the right next step for your home.",
+  "promise": [
+    "Repair & diagnosis",
+    "Thoughtful replacement",
+    "Seasonal maintenance"
+  ],
+  "serviceTitle": "Comfort, from the first visit onward.",
+  "serviceIntro": "Choose the kind of help you need. The right recommendation starts with understanding the system, the space, and the problem.",
+  "offers": [
+    {
+      "title": "Get it working",
+      "text": "A focused diagnostic visit for rooms that will not cool, unusual cycling, or a system that has stopped.",
+      "items": [
+        "Describe symptoms before the visit",
+        "Discuss findings before approving work",
+        "Repair scope confirmed after diagnosis"
+      ],
+      "tag": "REPAIR"
+    },
+    {
+      "title": "Plan what comes next",
+      "text": "Explore replacement when comfort, system age, and operating needs no longer line up.",
+      "items": [
+        "Home and system assessment",
+        "Compare suitable equipment options",
+        "Understand installation scope"
+      ],
+      "tag": "REPLACEMENT"
+    },
+    {
+      "title": "Keep a good thing going",
+      "text": "A planned check-in for the equipment you already have.",
+      "items": [
+        "System-specific inspection",
+        "Filter and airflow discussion",
+        "Maintenance findings documented"
+      ],
+      "tag": "CARE"
+    }
+  ],
+  "story": {
+    "eyebrow": "KNOW WHAT YOU’RE SAYING YES TO",
+    "title": "A clear explanation is part of the service.",
+    "text": "A noisy system is a symptom, not a diagnosis. A useful visit connects what you are noticing to what is happening—and lays out the choices in plain language.",
+    "points": [
+      "A conversation about the rooms you use",
+      "Findings before recommendations",
+      "Written scope before approved work"
+    ]
+  },
+  "guide": {
+    "eyebrow": "THE COMFORT GUIDE",
+    "title": "Start with what you notice.",
+    "intro": "You do not need to know the name of the part. A few observations can help the first conversation.",
+    "notes": [
+      {
+        "title": "Uneven rooms",
+        "text": "Note which rooms feel different and at what time of day. Share whether doors are usually closed and whether the issue is new or longstanding."
+      },
+      {
+        "title": "Airflow and filters",
+        "text": "Have your equipment model and filter size ready if accessible. Follow manufacturer guidance; do not remove panels or work on electrical components to collect details."
+      },
+      {
+        "title": "Repair or replace?",
+        "text": "A business should consider diagnosis, equipment condition, household priorities, and available options. A website should help you prepare for that conversation, not guess the answer."
+      },
+      {
+        "title": "Before a scheduled visit",
+        "text": "Make the thermostat and equipment area accessible. Keep pets comfortable in a separate area and write down when the issue first appeared."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do I need to know what is broken?",
+      "a": "No. Explain what changed, where you notice it, and how long it has been happening. The appointment preview starts with those everyday observations."
+    },
+    {
+      "q": "Is this an emergency service line?",
+      "a": "No. This is a fictional business demonstration, and requests are not monitored. For an immediate hazard, contact the appropriate local emergency service."
+    },
+    {
+      "q": "Will this give me a repair price?",
+      "a": "A real repair quote depends on diagnosis and approved scope. This demo creates a service brief and does not invent a guaranteed repair price."
+    }
+  ],
+  "flow": {
+    "title": "Let’s find your next step.",
+    "intro": "Tell us what your home needs and preview a service visit.",
+    "steps": [
+      {
+        "title": "What’s happening?",
+        "intro": "Start with the reason for your visit.",
+        "fields": [
+          {
+            "id": "issue",
+            "label": "What brings you here?",
+            "type": "choice",
+            "options": [
+              "Not cooling",
+              "Not heating",
+              "Uneven rooms",
+              "Seasonal tune-up",
+              "Planning replacement"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Your home & system",
+        "intro": "A little context helps the conversation.",
+        "fields": [
+          {
+            "id": "system",
+            "label": "System type",
+            "type": "choice",
+            "options": [
+              "Central heating & air",
+              "Heat pump",
+              "Ductless system",
+              "Not sure"
+            ]
+          },
+          {
+            "id": "home",
+            "label": "Property type",
+            "type": "choice",
+            "options": ["Single-family home", "Townhome", "Small business"]
+          }
+        ]
+      },
+      {
+        "title": "A time to talk",
+        "intro": "Preview a preferred service window.",
+        "fields": [
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "window",
+            "label": "Preferred window",
+            "type": "choice",
+            "options": ["Morning · 8–12", "Afternoon · 12–4"]
+          },
+          {
+            "id": "area",
+            "label": "Sample service area",
+            "type": "choice",
+            "options": [
+              "Central neighborhood",
+              "North neighborhood",
+              "West neighborhood"
+            ]
+          }
+        ]
+      }
+    ],
+    "next": "A real service team would confirm availability, access, and diagnostic terms before scheduling."
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "eyebrow": "CARE IN EVERY REFLECTION.",
+  "headline": "Back to\nremarkable.",
+  "intro": "Interior clarity. A considered finish. Detailing designed around your vehicle and the way you drive.",
+  "promise": ["Interior resets", "Exterior care", "A treatment that fits"],
+  "serviceTitle": "Choose the depth of care.",
+  "serviceIntro": "Start with the condition of your vehicle, then select the treatment that makes sense. Illustrative package prices are starting points.",
+  "offers": [
+    {
+      "title": "The refresh",
+      "text": "A careful reset for a vehicle in regularly maintained condition.",
+      "items": [
+        "Exterior wash and dry",
+        "Interior vacuum and wipe-down",
+        "Glass and finishing touches"
+      ],
+      "tag": "ROUTINE",
+      "price": "$95 sample starting price"
+    },
+    {
+      "title": "The interior reset",
+      "text": "Time and attention for the cabin you spend your day in.",
+      "items": [
+        "Detailed vacuum and surfaces",
+        "Upholstery needs assessed",
+        "Crevices and touchpoints"
+      ],
+      "tag": "CABIN",
+      "price": "$165 sample starting price"
+    },
+    {
+      "title": "The complete detail",
+      "text": "A fuller interior and exterior treatment, scoped to the vehicle.",
+      "items": [
+        "Interior reset",
+        "Exterior decontamination discussion",
+        "Finish protection options"
+      ],
+      "tag": "COMPLETE",
+      "price": "$245 sample starting price"
+    }
+  ],
+  "story": {
+    "eyebrow": "A CLOSER LOOK",
+    "title": "The small details change the whole drive.",
+    "text": "Leather, fabric, trim, and paint have different needs. A useful treatment begins with the vehicle’s actual condition and a clear explanation of what can improve.",
+    "points": [
+      "Condition reviewed before final pricing",
+      "Suitable care for each material",
+      "Mobile setup confirmed before arrival"
+    ]
+  },
+  "guide": {
+    "eyebrow": "CARE NOTES",
+    "title": "A finish worth understanding.",
+    "intro": "Good detailing sets clear expectations for the result and the care that follows.",
+    "notes": [
+      {
+        "title": "Condition comes first",
+        "text": "Pet hair, sand, spills, and embedded stains change the time and methods needed. Share those details before choosing a package."
+      },
+      {
+        "title": "Know what protection means",
+        "text": "Wax, sealant, and coating services are different. A real provider should explain preparation, durability assumptions, and aftercare for the selected product."
+      },
+      {
+        "title": "Plan the mobile setup",
+        "text": "A safe working area, access, weather, and utilities can affect mobile service. The appointment request should confirm requirements before the visit."
+      },
+      {
+        "title": "Keep the result in perspective",
+        "text": "Deep damage, permanent staining, and clear-coat defects may need specialist work. The site should never promise that every mark will disappear."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do these prices include every vehicle?",
+      "a": "No. They are illustrative starting prices for the demo. Vehicle size, condition, service depth, and access would inform a real quote."
+    },
+    {
+      "q": "Will scratches and stains disappear?",
+      "a": "Not always. This example promises no restoration result. A real assessment should explain limitations before work begins."
+    },
+    {
+      "q": "Are the photos of mobile customer visits?",
+      "a": "No. The stock images show detailing craft in a workshop. They do not document the fictional business’s work or mobile setup."
+    }
+  ],
+  "flow": {
+    "title": "Find your vehicle’s reset.",
+    "intro": "Match your vehicle and its condition to a sample treatment.",
+    "steps": [
+      {
+        "title": "Your vehicle",
+        "intro": "Start with the size and the condition.",
+        "fields": [
+          {
+            "id": "vehicle",
+            "label": "Vehicle type",
+            "type": "choice",
+            "options": ["Sedan / coupe", "SUV / crossover", "Truck / large SUV"]
+          },
+          {
+            "id": "condition",
+            "label": "Current condition",
+            "type": "choice",
+            "options": [
+              "Regularly maintained",
+              "Daily-life buildup",
+              "Heavy use / needs assessment"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "The treatment",
+        "intro": "Choose the depth of care.",
+        "fields": [
+          {
+            "id": "package",
+            "label": "Treatment",
+            "type": "choice",
+            "options": [
+              "The refresh",
+              "The interior reset",
+              "The complete detail"
+            ]
+          },
+          {
+            "id": "extras",
+            "label": "Areas to discuss",
+            "type": "multi",
+            "options": ["Pet hair", "Upholstery stains", "Finish protection"],
+            "optional": true
+          }
+        ]
+      },
+      {
+        "title": "The appointment",
+        "intro": "Preview the mobile setup and timing.",
+        "fields": [
+          {
+            "id": "parking",
+            "label": "Working space",
+            "type": "choice",
+            "options": [
+              "Private driveway",
+              "Approved parking area",
+              "Need to discuss access"
+            ]
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          },
+          {
+            "id": "window",
+            "label": "Preferred window",
+            "type": "choice",
+            "options": ["Morning", "Afternoon"]
+          }
+        ]
+      }
+    ],
+    "next": "A real detailer would confirm condition, setup requirements, weather, time, and final price."
+  }
+}

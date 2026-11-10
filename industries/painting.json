@@ -1,0 +1,152 @@
+{
+  "eyebrow": "SPACES, QUIETLY TRANSFORMED.",
+  "headline": "A new feeling.\nIn a familiar place.",
+  "intro": "Considered preparation. Beautiful finishes. Color that belongs in the rooms you call home.",
+  "promise": ["Interiors", "Exteriors", "Trim & finishing"],
+  "serviceTitle": "A considered finish for every space.",
+  "serviceIntro": "Begin with the surface, the light, and how the room is used. The finish should feel at home long after the paint dries.",
+  "offers": [
+    {
+      "title": "Living in color",
+      "text": "Walls and ceilings, prepared with care for the everyday life around them.",
+      "items": [
+        "Room and surface assessment",
+        "Protection and preparation",
+        "Finish and sheen discussion"
+      ],
+      "tag": "INTERIORS"
+    },
+    {
+      "title": "A fresh first impression",
+      "text": "Exterior painting begins with a close look at the building and its condition.",
+      "items": [
+        "Coating and substrate review",
+        "Weather and access planning",
+        "Scope-specific preparation"
+      ],
+      "tag": "EXTERIORS"
+    },
+    {
+      "title": "The finishing line",
+      "text": "The edges, doors, and details that bring a space together.",
+      "items": [
+        "Trim and door scope",
+        "Existing finish compatibility",
+        "Drying and handling guidance"
+      ],
+      "tag": "DETAILS"
+    }
+  ],
+  "story": {
+    "eyebrow": "BEFORE THE FIRST BRUSHSTROKE",
+    "title": "The finish begins underneath.",
+    "text": "A beautiful result depends on the surface you start with. Preparation, protection, product selection, and drying time belong in the plan—not in the fine print.",
+    "points": [
+      "Discuss repairs before coating",
+      "Sample color in the actual light",
+      "Plan how the home stays usable"
+    ]
+  },
+  "guide": {
+    "eyebrow": "PREPARATION MATTERS",
+    "title": "Good work, layer by layer.",
+    "intro": "A painting brief should make the invisible work as clear as the final color.",
+    "notes": [
+      {
+        "title": "Look closely",
+        "text": "Identify peeling, cracks, moisture concerns, and existing coatings. Older buildings may need specialist assessment before disturbing painted surfaces."
+      },
+      {
+        "title": "Prepare thoughtfully",
+        "text": "Agree protection, cleaning, repair, sanding, and priming appropriate to the surface. The proposal should explain what preparation is included."
+      },
+      {
+        "title": "Choose in context",
+        "text": "Test samples in the space and observe them in changing light. Discuss sheen, durability, and the manufacturer’s care recommendations."
+      },
+      {
+        "title": "Plan the handover",
+        "text": "Allow for access, ventilation, drying, and curing according to the selected products. Record colors and finishes for future touch-ups."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can you help narrow down colors?",
+      "a": "A real color consultation can consider light, adjoining finishes, and sample boards. The showroom color picker changes this website, not the walls in the stock photographs."
+    },
+    {
+      "q": "Does every room need the same finish?",
+      "a": "No. Surface condition, use, light, and product requirements influence the choice. The estimate brief collects your preferences for discussion."
+    },
+    {
+      "q": "Are the photos your completed projects?",
+      "a": "No. They are illustrative stock images selected to show interiors and painting craft, not a portfolio of this fictional business."
+    }
+  ],
+  "flow": {
+    "title": "Picture your next chapter.",
+    "intro": "Build a painting brief around your rooms and finishes.",
+    "steps": [
+      {
+        "title": "Your space",
+        "intro": "Choose the part of the property you are considering.",
+        "fields": [
+          {
+            "id": "scope",
+            "label": "Project scope",
+            "type": "choice",
+            "options": ["Interior rooms", "Exterior surfaces", "Doors & trim"]
+          },
+          {
+            "id": "rooms",
+            "label": "Rooms or areas",
+            "type": "number",
+            "min": 1,
+            "max": 20
+          }
+        ]
+      },
+      {
+        "title": "The starting point",
+        "intro": "Preparation and finish choices belong together.",
+        "fields": [
+          {
+            "id": "condition",
+            "label": "Surface condition",
+            "type": "choice",
+            "options": [
+              "Sound existing finish",
+              "Minor repairs needed",
+              "Needs an assessment"
+            ]
+          },
+          {
+            "id": "finish",
+            "label": "Finish preference",
+            "type": "choice",
+            "options": ["Soft matte", "Easy-care satin", "Help me choose"]
+          }
+        ]
+      },
+      {
+        "title": "Your plans",
+        "intro": "A sample schedule starts the conversation.",
+        "fields": [
+          {
+            "id": "occupied",
+            "label": "Will the space be occupied?",
+            "type": "choice",
+            "options": ["Yes — plan around daily life", "No — empty property"]
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          }
+        ]
+      }
+    ],
+    "next": "A real painter would assess surfaces, confirm preparation and products, and provide a written proposal."
+  }
+}

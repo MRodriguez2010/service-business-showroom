@@ -1,0 +1,169 @@
+{
+  "eyebrow": "FACILITY CARE, CONSIDERED.",
+  "headline": "A well-kept space.\nA better working day.",
+  "intro": "Cleaning programs shaped around your building, your people, and the way your business works.",
+  "promise": [
+    "Office & shared spaces",
+    "Retail & studios",
+    "Planned service schedules"
+  ],
+  "serviceTitle": "A plan for the way your building works.",
+  "serviceIntro": "Each facility has its own traffic, materials, and quiet hours. Start with the spaces that matter to your team.",
+  "offers": [
+    {
+      "title": "Offices & workplaces",
+      "text": "Support a welcoming arrival and an orderly end to the day.",
+      "items": [
+        "Workstations and common areas",
+        "Restrooms and breakrooms",
+        "Agreed touchpoints and waste removal"
+      ],
+      "tag": "WORK"
+    },
+    {
+      "title": "Retail & studios",
+      "text": "Keep customer-facing spaces ready for their next visitor.",
+      "items": [
+        "Entry glass and front-of-house",
+        "Floors matched to their material",
+        "Service around opening hours"
+      ],
+      "tag": "WELCOME"
+    },
+    {
+      "title": "Shared buildings",
+      "text": "Bring a defined scope to the areas everyone uses.",
+      "items": [
+        "Lobbies and corridors",
+        "Common kitchens and amenities",
+        "Supply and access coordination"
+      ],
+      "tag": "SHARE"
+    }
+  ],
+  "story": {
+    "eyebrow": "THE WORK BEHIND THE WORK",
+    "title": "A checklist is only useful when it fits.",
+    "text": "We begin with a walkthrough: the footprint, floor finishes, traffic patterns, and tasks your team needs handled. The resulting plan makes responsibilities visible.",
+    "points": [
+      "A room-by-room scope",
+      "Named access and communication arrangements",
+      "A schedule matched to building use"
+    ]
+  },
+  "guide": {
+    "eyebrow": "AN OPERATING APPROACH",
+    "title": "Clarity at every handoff.",
+    "intro": "Good facility care depends on more than a list of tasks. Everyone should know what is included, when work happens, and how to raise an issue.",
+    "notes": [
+      {
+        "title": "Walk the space",
+        "text": "Review rooms, floor types, high-traffic areas, storage, waste handling, and any restrictions. Sensitive or specialized environments need their own qualified scope."
+      },
+      {
+        "title": "Agree the schedule",
+        "text": "Choose service windows around occupancy, deliveries, meetings, and opening hours. Separate recurring tasks from periodic deep work."
+      },
+      {
+        "title": "Make the scope visible",
+        "text": "Document task frequency, responsibility, consumable arrangements, and areas excluded from routine service. Avoid vague “everything included” promises."
+      },
+      {
+        "title": "Review what changes",
+        "text": "A new team, layout, or busy season changes a building. Schedule a way to update the checklist and report issues without interrupting daily work."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can the schedule fit around our team?",
+      "a": "The sample planner includes early morning, evening, and weekend windows. A real walkthrough would confirm access rules, security, occupancy, and staffing."
+    },
+    {
+      "q": "Are supplies included?",
+      "a": "That belongs in the agreed scope. Cleaning products, restroom consumables, and waste services may have different arrangements and should be listed separately."
+    },
+    {
+      "q": "Do you cover clinical or industrial cleaning?",
+      "a": "Those environments may require specialist protocols. This example covers ordinary commercial spaces and does not claim medical or hazardous-material cleaning capabilities."
+    }
+  ],
+  "flow": {
+    "title": "Start with your space.",
+    "intro": "Build a walkthrough brief your facility manager could actually use.",
+    "steps": [
+      {
+        "title": "Your facility",
+        "intro": "Choose the footprint and type of space.",
+        "fields": [
+          {
+            "id": "facility",
+            "label": "Facility type",
+            "type": "choice",
+            "options": ["Office", "Retail space", "Studio", "Shared building"]
+          },
+          {
+            "id": "area",
+            "label": "Approximate square feet",
+            "type": "number",
+            "min": 500,
+            "max": 100000
+          }
+        ]
+      },
+      {
+        "title": "The cleaning plan",
+        "intro": "Set the routine and priority areas.",
+        "fields": [
+          {
+            "id": "frequency",
+            "label": "Service frequency",
+            "type": "choice",
+            "options": ["Daily weekdays", "Three times a week", "Weekly"]
+          },
+          {
+            "id": "priorities",
+            "label": "Priority areas",
+            "type": "multi",
+            "options": [
+              "Restrooms",
+              "Floors",
+              "Breakrooms",
+              "Entry glass",
+              "Common areas"
+            ],
+            "optional": false
+          }
+        ]
+      },
+      {
+        "title": "Access & timing",
+        "intro": "Choose when your building can be visited.",
+        "fields": [
+          {
+            "id": "window",
+            "label": "Preferred service hours",
+            "type": "choice",
+            "options": ["Before opening", "After closing", "Weekend"]
+          },
+          {
+            "id": "access",
+            "label": "Access arrangement",
+            "type": "choice",
+            "options": [
+              "On-site contact",
+              "Managed key access",
+              "Walkthrough to confirm"
+            ]
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          }
+        ]
+      }
+    ],
+    "next": "A real facility team would walk the space, define exclusions, and prepare a site-specific service proposal."
+  }
+}

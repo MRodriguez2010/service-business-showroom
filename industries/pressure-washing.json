@@ -1,0 +1,174 @@
+{
+  "eyebrow": "A FRESH LOOK STARTS AT THE SURFACE.",
+  "headline": "Let the good\n underneath show.",
+  "intro": "Exterior cleaning with a plan for the material, the surroundings, and the result you are after.",
+  "promise": [
+    "Concrete & pavers",
+    "Siding & exterior walls",
+    "Patios & outdoor spaces"
+  ],
+  "serviceTitle": "Different surfaces. Different approaches.",
+  "serviceIntro": "The right method depends on what the surface is made of, its condition, and what surrounds it.",
+  "offers": [
+    {
+      "title": "Driveways & paths",
+      "text": "A clearer welcome for the hard surfaces that work every day.",
+      "items": [
+        "Concrete condition reviewed",
+        "Edges and drainage considered",
+        "Stains discussed before quoting"
+      ],
+      "tag": "GROUNDWORK"
+    },
+    {
+      "title": "Siding & walls",
+      "text": "A surface-aware plan for the outside of your home.",
+      "items": [
+        "Material and finish identified",
+        "Openings and fixtures protected",
+        "Suitable method agreed"
+      ],
+      "tag": "EXTERIORS"
+    },
+    {
+      "title": "Patios & outdoor living",
+      "text": "Freshen the places you gather without treating every material alike.",
+      "items": [
+        "Pavers, stone, and timber reviewed",
+        "Furniture and planting considered",
+        "Scope and limitations explained"
+      ],
+      "tag": "OUTSIDE AGAIN"
+    }
+  ],
+  "story": {
+    "eyebrow": "CARE BEFORE PRESSURE",
+    "title": "The preparation matters as much as the rinse.",
+    "text": "A site visit should identify coatings, loose material, nearby planting, runoff, and access. “More pressure” is not a universal answer.",
+    "points": [
+      "Identify the material first",
+      "Protect surrounding areas",
+      "Explain likely results and limitations"
+    ]
+  },
+  "guide": {
+    "eyebrow": "BEFORE WE BEGIN",
+    "title": "Know the surface. Respect the setting.",
+    "intro": "A well-scoped project avoids surprises for both the property owner and the crew.",
+    "notes": [
+      {
+        "title": "Identify the material",
+        "text": "Concrete, brick, siding, timber, and painted finishes do not respond the same way. Share any sealers, coatings, damage, or manufacturer care instructions."
+      },
+      {
+        "title": "Set realistic expectations",
+        "text": "Some staining, oxidation, or weathering may remain. A real provider should discuss likely results and consider a test area where appropriate."
+      },
+      {
+        "title": "Plan access and drainage",
+        "text": "Identify water access, electrical fixtures, nearby plants, and how runoff will be handled. Local requirements belong in the site-specific plan."
+      },
+      {
+        "title": "Get the space ready",
+        "text": "Move loose items and vehicles, close openings, and flag fragile areas. Ask what the crew will handle and what needs to be ready before arrival."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Will every stain disappear?",
+      "a": "Not necessarily. Results depend on material, age, previous treatments, and the stain. This example makes no guaranteed restoration claims."
+    },
+    {
+      "q": "Can you clean painted or delicate surfaces?",
+      "a": "They require a material-specific assessment. A real provider should confirm a suitable method or recommend a specialist when needed."
+    },
+    {
+      "q": "Are these before-and-after photos?",
+      "a": "No. All images are illustrative stock. They are not paired results or examples of work performed by this fictional business."
+    }
+  ],
+  "flow": {
+    "title": "Start with your surface.",
+    "intro": "Build a project brief around the material and the space.",
+    "steps": [
+      {
+        "title": "The surface",
+        "intro": "Tell us what you want to refresh.",
+        "fields": [
+          {
+            "id": "surface",
+            "label": "Primary surface",
+            "type": "choice",
+            "options": [
+              "Concrete driveway",
+              "Paver patio",
+              "Siding",
+              "Exterior brick"
+            ]
+          },
+          {
+            "id": "area",
+            "label": "Approximate area in square feet",
+            "type": "number",
+            "min": 50,
+            "max": 20000
+          }
+        ]
+      },
+      {
+        "title": "The condition",
+        "intro": "Set expectations before the visit.",
+        "fields": [
+          {
+            "id": "condition",
+            "label": "Main concern",
+            "type": "choice",
+            "options": [
+              "General dirt",
+              "Green growth",
+              "Staining",
+              "Unsure — needs a look"
+            ]
+          },
+          {
+            "id": "details",
+            "label": "Things to consider",
+            "type": "multi",
+            "options": [
+              "Nearby planting",
+              "Painted areas",
+              "Limited drainage",
+              "Fragile fixtures"
+            ],
+            "optional": true
+          }
+        ]
+      },
+      {
+        "title": "Access & timing",
+        "intro": "Preview the setup for the project.",
+        "fields": [
+          {
+            "id": "water",
+            "label": "Water access",
+            "type": "choice",
+            "options": ["Exterior tap available", "Discuss on walkthrough"]
+          },
+          {
+            "id": "access",
+            "label": "Property access",
+            "type": "choice",
+            "options": ["Easy ground-level access", "Restricted access"]
+          },
+          {
+            "id": "date",
+            "label": "Preferred date",
+            "type": "date"
+          }
+        ]
+      }
+    ],
+    "next": "A real site assessment would confirm the cleaning method, runoff arrangements, price, and expected result."
+  }
+}
